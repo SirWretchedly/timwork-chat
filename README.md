@@ -1,2 +1,4 @@
 # timwork-chat
-Timwork Chat - Chat rooms for any subjects of discussion
+Timwork Chat - Chat rooms for any discussion
+
+

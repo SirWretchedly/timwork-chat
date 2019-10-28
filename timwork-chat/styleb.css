@@ -1,0 +1,157 @@
+body{
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #ccf2ff;
+}
+/*global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*header*/
+header{ 
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 15px;
+	min-height: 50px;
+	border-bottom: #000000 3px solid;
+	/*position: sticky;*/
+	top: 0;
+
+}
+header #imagine{
+	width:	40px;
+	height:	40px;
+	margin:	0;
+	float:	left;
+
+}
+header #sus{
+	float: left;
+}
+header #sus h1{
+	margin:0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color: #ffff66;
+	font-weight: bold;
+}
+/*section*/
+section{
+	
+	padding-left: 550px;
+}
+#tit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #000000;
+}
+.ceva_nou{
+	border: 5px solid #b5c5dd;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	background-color: white;
+	font-family: 'Days One', sans-serif;
+	overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px 14px 0px;
+  text-decoration: none;
+}
+input[type=submit] {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
+input:hover {
+  background-color: #111;
+}
+#igot{
+	padding-left: 550px;
+}
+#but1{
+	padding: 12px 15px;
+	border-radius: 150px;
+	
+}
+.mda{
+	border-color: white;
+	border-right: 2px solid;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-left: solid #80aaff;
+	border-width: 3px 7px 4px 8px;
+	width: 450px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	background-color: white;
+	margin: 3px;
+}
+#salee{
+	border: 0;
+	text-decoration: none;
+	font-size: 18px;
+}
+u{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 18px;
+	color: #e8491d;
+}
+/*footer*/
+footer{
+	text-align: center;
+	background-color: #35424a;
+	height: 50px;
+	padding: 5px;
+	margin: 0px;
+}

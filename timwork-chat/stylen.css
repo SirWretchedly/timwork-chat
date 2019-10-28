@@ -1,0 +1,132 @@
+body{
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #ccf2ff;
+}
+/*global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*header*/
+header{ 
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 15px;
+	min-height: 50px;
+	border-bottom: #000000 3px solid;
+	/*position: sticky;*/
+	top: 0;
+
+}
+header #imagine{
+	width:	40px;
+	height:	40px;
+	margin:	0;
+	float:	left;
+
+}
+header #sus{
+	float: left;
+}
+header #sus h1{
+	margin:0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color: #ffff66;
+	font-weight: bold;
+}
+/*section*/
+section{
+	min-height: 80%;
+	text-align: center;
+	color: #000000;
+}
+section h1{
+	margin-top: 40px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+label{
+	width: 10%;
+	display: inline-block;
+	text-align: left;
+	margin-right: 10px;
+	font-size: 20px;
+	
+
+}
+input[type=text]{
+	width: 20%;
+	height: 20px;
+	padding: 10px 10px;
+	padding-top: 15px;
+	margin: 8px 0;
+	text-align: left;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+	border: 2px solid #ccc;
+	resize: none;
+	font-size: 12px;
+	font-family: 'Days One', sans-serif;
+}
+input[type=submit] {
+  width: auto;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+  }
+textarea {
+  width: 20%;
+  height: 50px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  resize: none;
+  font-family: 'Days One', sans-serif;
+}
+/*footer*/
+footer{
+	text-align: center;
+	background-color: #35424a;
+	height: 50px;
+	padding: 5px;
+	margin: 0px;
+}
